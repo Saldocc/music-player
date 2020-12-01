@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saldoc Music Player</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player-container">
+      <div class="img-container">
+        <img src="" alt="Album Art" />
+      </div>
+      <h2 id="title"></h2>
+      <h3 id="artist"></h3>
+      <div class="audio-container">
+        <audio src=""></audio>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+          <div class="duration-wrapper">
+            <span class="current-time"></span>
+            <span class="duration"></span>
+          </div>
+        </div>
+        <div class="general-controls">
+          <button class="btn" id="toggle-random">
+            <i class="fas fa-random"></i>
+          </button>
+          <div class="player-controls">
+            <button class="btn" id="prev">
+              <i class="fas fa-backward" title="Previous"></i>
+            </button>
+            <button class="btn main-button" id="play">
+              <i class="fas fa-play" title="Play"></i>
+            </button>
+            <button class="btn" id="next">
+              <i class="fas fa-forward" title="Next"></i>
+            </button>
+          </div>
+          <button class="btn" id="volume-button">
+            <i class="fas fa-volume-down"></i>
+          </button>
+          <div class="volume-content" id="volume-content">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="10"
+              class="slider"
+              id="volume-range"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="logo" src="./favicon.png" alt="logo" />
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
