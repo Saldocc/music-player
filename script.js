@@ -21,24 +21,24 @@ music.volume = 0.1;
 //song list
 const songs = [
   {
-    name: "jacinto-1",
-    displayName: "Electric Chill Machine",
-    artist: "Jacinto Design",
+    name: 'jacinto-1',
+    displayName: 'Electric Chill Machine',
+    artist: 'Jacinto Design',
   },
   {
-    name: "jacinto-2",
-    displayName: "digermusic",
-    artist: "Jacinto Design",
+    name: 'jacinto-2',
+    displayName: 'Seven nation Army (Remix)',
+    artist: 'Jacinto Design',
   },
   {
-    name: "jacinto-3",
-    displayName: "Machine",
-    artist: "Deneme Design",
+    name: 'jacinto-3',
+    displayName: 'Goodnight, Disco Queen',
+    artist: 'Jacinto Design',
   },
   {
-    name: "metric-1",
-    displayName: "Chill Machine",
-    artist: "Mtirc Design",
+    name: 'metric-1',
+    displayName: 'Front Row (Remix)',
+    artist: 'Metric/Jacinto Design',
   },
 ];
 
